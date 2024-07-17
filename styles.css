@@ -114,3 +114,51 @@ select {
   cursor: pointer;
   gap: 10px;
 }
+/* styles popular section here */
+.popular {
+  max-width: 1170px;
+  height: 550px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  display: flex;
+  justify-content: space-between;
+}
+.popular-text {
+  width: 577px;
+  height: 550px;
+}
+.popular-text h2 {
+  color: rgb(19, 19, 24);
+  font-size: 40px;
+  font-weight: 800;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.popular-text p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+  margin-bottom: 24px;
+}
+.popular-text > ul > li {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  line-height: 26px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+.popular-text button {
+  width: 174px;
+  height: 52px;
+  border-radius: 8px;
+  background: rgb(255, 84, 0);
+  color: rgb(255, 255, 255);
+  font-size: 20px;
+  font-weight: 800;
+  border: none;
+  margin-top: 41px;
+}
+.popular-image {
+  width: 540px;
+}
