@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap");
+* {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  margin: 0;
+}
+.span {
+  color: rgb(255, 84, 0);
+  font-weight: 800;
+}
+.nav-bar {
+  width: 1170px;
+  margin: 5rem auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  width: 17rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo img {
+  width: 3rem;
+  height: 3.5rem;
+}
+.logo h3 {
+  font-size: 36px;
+  font-weight: 800;
+  color: rgb(19, 19, 24);
+}
+.options {
+  width: 32rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.options p {
+  color: rgb(66, 66, 71);
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+/* styles explore section here */
+.explore {
+  max-width: 1170px;
+  height: 500px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  border-radius: 16px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(19, 19, 24, 0.8),
+      rgba(19, 19, 24, 0) 100%
+    ),
+    url(../hero-travel/Images/background.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.explore-text {
+  width: 42.25rem;
+  height: 9.75rem;
+  margin-bottom: 48px;
+}
+.explore-text h1 {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 800;
+  text-align: center;
+}
+.explore-text p {
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+.explore-content {
+  width: 50rem;
+  height: 5.25rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.explore-content > input,
+select {
+  width: 10.88rem;
+  height: 3.25rem;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  border: none;
+  padding: 0 0.5rem;
+  color: rgba(19, 19, 24, 0.5);
+  font-size: 16px;
+  cursor: pointer;
+}
+.explore-content > button {
+  width: 10.88rem;
+  height: 3.25rem;
+  background-color: rgb(255, 84, 0);
+  border-radius: 8px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-size: 1rem;
+  font-weight: 700;
+  cursor: pointer;
+  gap: 10px;
+}
