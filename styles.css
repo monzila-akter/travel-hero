@@ -162,3 +162,150 @@ select {
 .popular-image {
   width: 540px;
 }
+/* styles destination section here */
+.destination {
+  max-width: 1170px;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.one {
+  width: 643px;
+  height: 126px;
+  margin-bottom: 48px;
+}
+.one h2 {
+  color: rgb(19, 19, 24);
+  font-size: 40px;
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 24px;
+}
+.one p {
+  color: rgba(19, 19, 24, 0.7);
+  font-size: 16px;
+  line-height: 26px;
+  text-align: center;
+}
+
+.two {
+  width: 1170px;
+  height: 300px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.two-first {
+  width: 573px;
+  height: 300px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../hero-travel/Images/Rectangle\ 5.png);
+}
+.two-first p {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 800;
+}
+.two-second {
+  width: 573px;
+  height: 300px;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../hero-travel/Images/Rectangle\ 8.png);
+}
+.two-second p {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 800;
+}
+.three {
+  width: 1170px;
+  height: 286px;
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.three-one {
+  width: 374px;
+  height: 100%;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../hero-travel/Images/Rectangle\ 6.png);
+}
+.three-one p {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 800;
+}
+.three-two {
+  width: 474px;
+  height: 100%;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../hero-travel/Images/Rectangle\ 7.png);
+}
+.three-two p {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 800;
+}
+.three-three {
+  width: 274px;
+  height: 100%;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../hero-travel/Images/Rectangle\ 9.png);
+}
+.three-three p {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 800;
+}
+.four {
+  width: 1170px;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+}
+.four-one {
+  width: 473px;
+  height: 100%;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../hero-travel/Images/Rectangle\ 11.png);
+}
+.four-one p {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 800;
+}
+.four-two {
+  width: 673px;
+  height: 100%;
+  border-radius: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../hero-travel/Images/Rectangle\ 10.png);
+}
+.four-two p {
+  color: rgb(255, 255, 255);
+  font-size: 28px;
+  font-weight: 800;
+}
